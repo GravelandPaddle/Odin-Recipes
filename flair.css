@@ -3,16 +3,16 @@ body {
 }
 
 h1 {
-    color: rgb(18, 18, 19);
-    font-family: Arial, Helvetica, sans-serif;
+    color: 264653ff;
+    font-family: Papyrus, fantasy;
 }
 
 p,
 ol,
 ul {
     /* place-items: 100; */
-    color: rgb(18, 18, 19);
-    font-family: Arial, Helvetica, sans-serif;
+    color: 264653ff;
+    font-family: Papyrus, fantasy;
     font-size: larger;
 }
 
@@ -22,3 +22,10 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 } */
+
+/* CSS HEX */
+--charcoal: #264653ff;
+--persian-green: #2a9d8fff;
+--maize-crayola: #e9c46aff;
+--sandy-brown: #f4a261ff;
+--burnt-sienna: #e76f51ff;
