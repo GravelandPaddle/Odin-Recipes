@@ -1,4 +1,6 @@
 body {
+    display: grid;
+    place-items: center;
     background-image: url(pexels-fwstudio-129731.jpg)
 }
 
@@ -7,13 +9,77 @@ h1 {
     font-family: Papyrus, fantasy;
 }
 
+button {
+    background-color: burlywood;
+    color: black;
+    margin: 1%;
+    width: 100px;
+    /* padding: */
+    border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 p,
 ol,
-ul {
+ul,
+a {
     /* place-items: 100; */
     color: 264653ff;
     font-family: Papyrus, fantasy;
     font-size: larger;
+}
+
+.hub {
+    background-color: beige;
+    /* margin: 400 px; */
+    position: relative;
+    margin: 20%;
+    box-sizing: border-box;
+    padding: 5%;
+    padding-top: 2%;
+    border-width: 10px;
+    /* border-left-style: ridge; */
+    border-top-style: ridge;
+    /* border-color: d; */
+    /* height: 100px;    */
+    width: 600px;
+    border-radius: 5%
+}
+
+.rec {
+    /* display: grid; */
+    /* place-items: cent; */
+    position: relative;
+    background-color: beige;
+    margin: 600 px;
+    box-sizing: border-box;
+    padding: 5%;
+    padding-top: 2%;
+    border-width: 10px;
+    /* border-left-style: ridge; */
+    border-top-style: ridge;
+    /* border-color: d; */
+    /* height: 100px;    */
+    width: 600px;
+    border-radius: 5%
+}
+
+.ret {
+    height: 100px;
+    margin: 5%;
+}
+
+.img {
+    margin: 5%;
+    padding: 5%;
+    height: 100px;
+    position: relative;
+    background-image: "/Feast.jpg";
+    /* border-radius: 10%; */
 }
 
 /* ol,
@@ -24,8 +90,3 @@ ul {
 } */
 
 /* CSS HEX */
---charcoal: #264653ff;
---persian-green: #2a9d8fff;
---maize-crayola: #e9c46aff;
---sandy-brown: #f4a261ff;
---burnt-sienna: #e76f51ff;
