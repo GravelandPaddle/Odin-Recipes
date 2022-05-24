@@ -9,6 +9,12 @@ h1 {
     font-family: Papyrus, fantasy;
 }
 
+button:hover {
+    color: burlywood;
+    background-color: #ccd5ae;
+    transition: 1s;
+}
+
 button {
     background-color: burlywood;
     font-size: 1.2rem;
@@ -17,7 +23,10 @@ button {
     width: 9rem;
     /* padding: */
     border-radius: 10%;
+
 }
+
+
 
 a {
     text-decoration: none;
@@ -40,7 +49,8 @@ a {
     background-color: beige;
     /* margin: 400 px; */
     position: relative;
-    margin: 20;
+    margin: 1rem auto 1rem auto;
+    /* margin-top: 1rem; */
     box-sizing: border-box;
     padding: 5%;
     padding-top: 2%;
@@ -59,28 +69,38 @@ a {
 .rec {
     /* display: grid; */
     /* place-items: cent; */
+    transition: 3s;
     position: relative;
     background-color: beige;
-    margin: 2rem;
+    /* margin: auto; */
     /* height: auto; */
-    box-sizing: border-box;
-    padding: 5rem;
+    /* box-sizing: border-box; */
+    padding: 8rem;
     padding-top: 3rem;
-    padding-bottom: 1rem;
-    border-width: 1rem;
+    padding-bottom: 3rem;
+    /* border-width: 1rem; */
     /* border-right-style: ridge; */
-    border-top-style: ridge;
-    border-color: d;
+    /* border-style: none; */
+    /* border-color: #ccd5ae; */
     /* height: 100px; */
-    width: 45rem;
-    border-radius: 5%
+    width: 30rem;
+    border-radius: 5%;
+    margin: 1rem auto 1rem auto;
+    /* margin-bottom: ; */
+
 }
 
-
+.rec:hover {
+    /* transition: 3s; */
+    border-radius: 25%;
+    /* border-bottom-right-radius: 25%; */
+    */
+}
 
 .img {
     /* margin: 5rem; */
     padding: 2rem;
+    margin: 50px;
     /* height: 100px; */
     position: relative;
     /* background-image: "/Feast.jpg"; */
