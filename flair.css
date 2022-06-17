@@ -1,36 +1,54 @@
 body {
-    display: grid;
-    place-items: center;
-    background-image: url(pexels-fwstudio-129731.jpg)
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1, 2, 0;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(tcloth.jpg);
+    background-size: cover;
 }
 
 h1 {
     color: 264653ff;
     font-family: Papyrus, fantasy;
+    border-color: beige;
+    border-width: 10px;
+    /* background-color: beige; */
+    border-radius: 10%;
+    /* width: auto; */
+
 }
+
 
 button:hover {
     color: burlywood;
-    background-color: #ccd5ae;
+    background-color: #2a4060;
     transition: 1s;
 }
 
 button {
-    background-color: burlywood;
+    background-color: black;
     font-size: 1.2rem;
-    color: black;
+    color: burlywood;
     margin: 1rem;
     width: 9rem;
     /* padding: */
     border-radius: 10%;
+    border-color: black;
+    border-width: 3px;
 
 }
 
+.img2 {
+    background-color: beige;
+    margin: 2rem;
 
+}
 
 a {
     text-decoration: none;
-    color: black;
+    color: burlywood;
 }
 
 p,
@@ -48,19 +66,19 @@ a {
     text-align: center;
     background-color: beige;
     /* margin: 400 px; */
-    position: relative;
-    margin: 1rem auto 1rem auto;
+    /* position: relative; */
+    /* margin: 1rem auto 1rem auto; */
     /* margin-top: 1rem; */
     box-sizing: border-box;
-    padding: 5%;
-    padding-top: 2%;
+    /* padding: 5%;
+    padding-top: 2%; */
     /* padding-right: 2%; */
     border-width: 1rem;
     /* border-left-style: ridge; */
     border-top-style: groove;
     /* border-color: d; */
     /* height: 100px;    */
-    width: auto;
+    /* width: auto; */
     border-radius: 5%
 }
 
@@ -81,7 +99,8 @@ a {
     /* border-width: 1rem; */
     /* border-right-style: ridge; */
     /* border-style: none; */
-    /* border-color: #ccd5ae; */
+    border-color: black;
+    border-width: 10px;
     /* height: 100px; */
     width: 30rem;
     border-radius: 5%;
@@ -94,13 +113,14 @@ a {
     /* transition: 3s; */
     border-radius: 25%;
     /* border-bottom-right-radius: 25%; */
-    */
+    /* border-color: black; */
+    /* border-width: ; */
 }
 
 .img {
-    /* margin: 5rem; */
+    margin: 2rem;
     padding: 2rem;
-    margin: 50px;
+    /* margin: 50px; */
     /* height: 100px; */
     position: relative;
     /* background-image: "/Feast.jpg"; */
